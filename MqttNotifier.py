@@ -7,7 +7,7 @@
 
 # see https://wiki.python.org/moin/ConfigParserShootout
 from configobj import ConfigObj
-config = ConfigObj('mqttNotifier.cfg')
+config = ConfigObj('MqttNotifier.cfg')
 
 print("{0}".format("MQTT Notifier"))
 
